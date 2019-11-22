@@ -1,0 +1,15 @@
+usr=`whoami`
+echo "Current logged in user: $usr"
+echo "Current Shell : $SHELL"
+echo "Home $HOME"
+echo "OS info"
+echo "`cat /etc/*-release`"
+echo ""
+echo "Current path setting "
+echo "$PATH"
+echo ""
+echo "Current Working directory"
+echo "`pwd`"
+echo ""
+echo "Shells available "
+cat /etc/shells
